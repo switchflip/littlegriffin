@@ -7,21 +7,21 @@
   %head
     %meta{ :charset => 'utf-8' }
     %meta{ 'http-equiv' => 'X-UA-Compatible', :content => 'IE=edge,chrome=1' }
-    %meta{ :name => 'description', :content => 'Thomas Berry, Web Developer, Librarian, Toronto, Canada' }
+    %meta{ :name => 'description', :content => 'Mike Little, Kelsey Griffin, Wedding, Little Griffin' }
     %meta{ :name => 'viewport', :content => 'width=device-width' }
     %title Thomas Berry
     / Le Styles
     %link{ :rel => 'stylesheet', :href => 'stylesheets/all.css' }
-    %link{ :rel => 'stylesheet', :href => 'http://fonts.googleapis.com/css?family=Arvo|Cabin|Bree+Serif'}
+
   %body
-    %div.header
-      = partial 'layouts/header'
+    / %div.header
+    /   = partial 'layouts/header'
 
     %div.wrap
       %div.main
         = yield
 
-    %div.footer
-      = partial 'layouts/footer'
+    / %div.footer
+    /   = partial 'layouts/footer'
 
     %script{ :rel => 'text/javascript', :src => 'javascripts/all.js' }
