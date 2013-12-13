@@ -1,0 +1,27 @@
+!!! 5
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
+/[if IE 7]    <html class="no-js lt-ie9 lt-ie8" lang="en">
+/[if IE 8]    <html class="no-js lt-ie9" lang="en">
+/[if gt IE 8] <html class="no-js" lang="en">
+%html{:lang => 'en'}
+  %head
+    %meta{ :charset => 'utf-8' }
+    %meta{ 'http-equiv' => 'X-UA-Compatible', :content => 'IE=edge,chrome=1' }
+    %meta{ :name => 'description', :content => 'Thomas Berry, Web Developer, Librarian, Toronto, Canada' }
+    %meta{ :name => 'viewport', :content => 'width=device-width' }
+    %title Thomas Berry
+    / Le Styles
+    %link{ :rel => 'stylesheet', :href => 'stylesheets/all.css' }
+    %link{ :rel => 'stylesheet', :href => 'http://fonts.googleapis.com/css?family=Arvo|Cabin|Bree+Serif'}
+  %body
+    %div.header
+      = partial 'layouts/header'
+
+    %div.wrap
+      %div.main
+        = yield
+
+    %div.footer
+      = partial 'layouts/footer'
+
+    %script{ :rel => 'text/javascript', :src => 'javascripts/all.js' }
