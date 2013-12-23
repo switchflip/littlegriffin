@@ -14,14 +14,12 @@
     %link{ :rel => 'stylesheet', :href => 'stylesheets/all.css' }
 
   %body
-    / %div.header
-    /   = partial 'layouts/header'
+    = partial 'layouts/header'
 
     %div.wrap
-      %div.main
-        = yield
+      = yield
 
-    / %div.footer
-    /   = partial 'layouts/footer'
+    %div.footer
+      = partial 'layouts/footer'
 
     %script{ :rel => 'text/javascript', :src => 'javascripts/all.js' }
