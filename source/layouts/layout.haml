@@ -12,15 +12,20 @@
     %title Little Griffin Wedding
     / Le Styles
     %link{ :rel => 'stylesheet', :href => 'stylesheets/all.css' }
+    %link{ :rel => 'stylesheet', :type => 'text/css', :href => 'http://fonts.googleapis.com/css?family=Arimo'}
 
   %body
-    %div.wrap
+    %div.container
       = partial 'layouts/header'
 
-    %div.wrap
-      = yield
+      = partial 'layouts/venue'
 
-    %div.footer
-      = partial 'layouts/footer'
+      = partial 'layouts/accomodation'
+
+      = partial 'layouts/rsvp'
+
+      = partial 'layouts/registry'
+
+      = partial 'layouts/contact'
 
     %script{ :rel => 'text/javascript', :src => 'javascripts/all.js' }

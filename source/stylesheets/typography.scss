@@ -1,4 +1,21 @@
+$para-color: #595959;
+
 .caps {
 	text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6  {
+	font-family: 'Arimo', sans-serif;
+}
+
+h1, h2 {
+	font-size: 60px;
+}
+
+p {
+	color: $para-color;
+	font-family: Helvetica Neue;
+	size: 8px;
+	font-weight: 200;
 }
 

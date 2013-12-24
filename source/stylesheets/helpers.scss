@@ -7,6 +7,22 @@
 }
 
 .center {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+.left, .right {
 	display: block;
-	margin: 0 auto;
+	float: left;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
