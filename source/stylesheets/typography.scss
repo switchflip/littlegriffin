@@ -4,7 +4,11 @@ $para-color: #595959;
 	text-transform: uppercase;
 }
 
-h1, h2 {
+.strong {
+	font-weight: bold;
+}
+
+h1, h2, h3 {
 	font-family: 'Sullivan';
 }
 
@@ -17,14 +21,33 @@ h2 {
 }
 
 h3 {
-	font-size: 24px;
-	font-family: 'helvetica-nue';
+	font-size: 90px;
 }
 
-p {
+h4, h5, h6 {
+	font-family: 'helvetica-nue';
+	color: $para-color;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 12px;
+}
+
+p, address, a {
 	color: $para-color;
 	font-family: 'helvetica-nue';
 	font-size: 16px;
 	font-weight: 200;
 }
 
+p, h4,h5,h6 {
+	margin-bottom: 20px;
+}

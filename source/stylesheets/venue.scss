@@ -1,4 +1,16 @@
 #venue {
-	min-height: 680px;
+	min-height: 600px;
 	background-color: #E6663A;
+	h4, h3, p, address, a {
+		color: #fff;
+	}
+	.google-maps {
+		margin-top: 10%;
+		iframe {
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;	
+			border-radius: 5px;	
+		}
+	}
 }

@@ -1,0 +1,21 @@
+@media (max-width: 1000px) {
+	.full, .two-thirds, .half, .third, .quarter {
+		width: 90%;
+		padding-bottom: 1%;
+	}
+	h2 {
+		font-size: 90px;
+	}
+	h3 {
+		font-size: 90px;
+	}
+	#venue .two-thirds .google-maps {
+		margin: 5% 0;
+	}
+}
+
+@media (max-width: 680px) {
+	h2, h3 {
+		font-size: 60px;
+	}
+}
