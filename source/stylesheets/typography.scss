@@ -5,7 +5,9 @@ $para-color: #595959;
 }
 
 .strong {
+	font-size: 18px;
 	font-weight: bold;
+	color: black;
 }
 
 h1, h2, h3 {
@@ -49,5 +51,12 @@ p, address, a {
 }
 
 p, h4,h5,h6 {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	& hover {
+		font-weight: bold;
+	}
 }

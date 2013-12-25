@@ -12,10 +12,20 @@
 	#venue .two-thirds .google-maps {
 		margin: 5% 0;
 	}
+	#venue {
+		.triangle-box {
+			width: 35%;
+		}
+	}
 }
 
 @media (max-width: 680px) {
 	h2, h3 {
 		font-size: 60px;
+	}
+	#venue {
+		.triangle-box {
+			width: 55%;
+		}
 	}
 }

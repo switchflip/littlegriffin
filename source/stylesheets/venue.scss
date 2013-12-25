@@ -1,5 +1,5 @@
 #venue {
-	min-height: 600px;
+	min-height: 550px;
 	background-color: #E6663A;
 	h4, h3, p, address, a {
 		color: #fff;
@@ -11,6 +11,15 @@
 			-moz-border-radius: 5px;
 			-o-border-radius: 5px;	
 			border-radius: 5px;	
+		}
+	}
+	.triangle-box {
+		width: 90%;
+		border: 2px solid white;
+		padding: 10px 5px;
+		text-align: center;
+		p {
+			padding-top: 10px;
 		}
 	}
 }
