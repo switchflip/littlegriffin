@@ -4,18 +4,27 @@ $para-color: #595959;
 	text-transform: uppercase;
 }
 
-h1, h2, h3, h4, h5, h6  {
-	font-family: 'Arimo', sans-serif;
+h1, h2 {
+	font-family: 'Sullivan';
 }
 
-h1, h2 {
-	font-size: 60px;
+h1 {
+	font-size: 150px;
+}
+
+h2 {
+	font-size: 120px;
+}
+
+h3 {
+	font-size: 24px;
+	font-family: 'helvetica-nue';
 }
 
 p {
 	color: $para-color;
-	font-family: Helvetica Neue;
-	size: 8px;
+	font-family: 'helvetica-nue';
+	font-size: 16px;
 	font-weight: 200;
 }
 

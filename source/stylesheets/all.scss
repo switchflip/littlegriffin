@@ -1,6 +1,6 @@
 @charset "utf-8";
-@import "normalize";
-@import "header";
+@import "reset";
+@import "base";
 @import "venue";
 @import "accomodation";
 @import "rsvp";
@@ -10,3 +10,6 @@
 @import "typography";
 @import "helpers";
 @import "layout";
+@import "fontface";
+@import "responsive";
+@import "header";

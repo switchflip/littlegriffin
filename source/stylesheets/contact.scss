@@ -1,0 +1,25 @@
+#contact:before {
+    content: " ";
+    display: block;
+    position: relative;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:30px;
+    background: linear-gradient(#ba5149 0%, transparent 0%), linear-gradient(135deg, #ba5149 33.33%, transparent 33.33%) 0 0%, #ba5149 linear-gradient(45deg, #ba5149 33.33%, #ba5149 33.33%) 0 0%;
+    background: -webkit-linear-gradient(#ba5149 0%, transparent 0%), -webkit-linear-gradient(135deg, #ba5149 33.33%, transparent 33.33%) 0 0%, #ba5149 -webkit-linear-gradient(45deg, #ba5149 33.33%, #F0D3C6 33.33%) 0 0%;
+    background: -o-linear-gradient(#ba5149 0%, transparent 0%), -o-linear-gradient(135deg, #ba5149 33.33%, transparent 33.33%) 0 0%, #ba5149 -o-linear-gradient(45deg, #272220 33.33%, #2B3A48 33.33%) 0 0%;
+    background: -moz-linear-gradient(#ba5149 0%, transparent 0%), -moz-linear-gradient(135deg, #ba5149 33.33%, transparent 33.33%) 0 0%, #ba5149 -moz-linear-gradient(45deg, #272220 33.33%, #2B3A48 33.33%) 0 0%;
+        background: -ms-linear-gradient(#ba5149 0%, transparent 0%), -ms-linear-gradient(135deg, #ba5149 33.33%, transparent 33.33%) 0 0%, #ba5149 -ms-linear-gradient(45deg, #272220 33.33%, #2B3A48 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 10px 100%, 22px 38px, 22px 38px;
+}
+
+#contact {
+    // background-color: #B12E24;
+    background-color: rgba(177, 46, 36, 0.8);
+    min-height: 350px;
+    h2, p, a {
+        color: white;
+    }
+}

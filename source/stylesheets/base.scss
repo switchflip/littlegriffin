@@ -1,0 +1,53 @@
+body {
+	background-color: #e3e3e3;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding-left: 2%;
+	min-width: 320px;
+}
+
+.row {
+	width: 100%;
+	padding: 2% 0 0 10%;
+	clear: both;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.full, .half, .third, .two-thirds, .quarter {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	float: left;
+	padding: 0 0 0 1%;
+}
+
+.full {
+	width: 98%;
+}
+
+.half {
+	width: 48%;
+}
+
+.two-thirds {
+	width: 56%;
+}
+
+.third {
+	width: 32%;
+}
+
+.quarter {
+	width: 24%;
+}
+
+.section-header {
+	width: 100%;
+	padding: 75px 0 0 10%
+}
