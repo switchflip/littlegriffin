@@ -4,12 +4,16 @@
 
 .nav {
 	ul {
+		margin: 0 auto;
 		li {
 			display: inline;
-			background-color: orange;
+			background-color: #e6663a;
 			padding: 10px 20px;
+			&:nth-child(3) {
+				margin-right: 100px;
+			}
 			a {
-				font-size: 20px;
+				color: #fff;
 			}
 		}
 	}
