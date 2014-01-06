@@ -1,3 +1,19 @@
+#registry:before {
+    content: " ";
+    display: block;
+    position: relative;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:30px;
+    background: linear-gradient(#f0d3c6 0%, transparent 0%), linear-gradient(135deg, #f0d3c6 33.33%, transparent 33.33%) 0 0%, #f0d3c6 linear-gradient(45deg, #f0d3c6 33.33%, #f0d3c6 33.33%) 0 0%;
+    background: -webkit-linear-gradient(#f0d3c6 0%, transparent 0%), -webkit-linear-gradient(135deg, #f0d3c6 33.33%, transparent 33.33%) 0 0%, #83859d -webkit-linear-gradient(45deg, #f0d3c6 33.33%, #83859d 33.33%) 0 0%;
+    background: -o-linear-gradient(#f0d3c6 0%, transparent 0%), -o-linear-gradient(135deg, #f0d3c6 33.33%, transparent 33.33%) 0 0%, #f0d3c6 -o-linear-gradient(45deg, #f0d3c6 33.33%, #f0d3c6 33.33%) 0 0%;
+    background: -moz-linear-gradient(#f0d3c6 0%, transparent 0%), -moz-linear-gradient(135deg, #f0d3c6 33.33%, transparent 33.33%) 0 0%, #f0d3c6 -moz-linear-gradient(45deg, #f0d3c6 33.33%, #f0d3c6 33.33%) 0 0%;
+        background: -ms-linear-gradient(#f0d3c6 0%, transparent 0%), -ms-linear-gradient(135deg, #f0d3c6 33.33%, transparent 33.33%) 0 0%, #f0d3c6 -ms-linear-gradient(45deg, #f0d3c6 33.33%, #f0d3c6 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 10px 100%, 22px 38px, 22px 38px;
+  }
 #registry {
 	// background-color: #f0d3c6;
 	background-color: rgba(240,211,198, 0.8);

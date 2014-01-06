@@ -22,7 +22,7 @@ body {
 	clear: both;
 }
 
-.full, .half, .third, .two-thirds, .quarter {
+.full, .half, .third, .two-thirds, .quarter, .map-container {
 	display: block;
 	float: left;
 	padding: 0 0 0 1%;
@@ -46,6 +46,10 @@ body {
 
 .quarter {
 	width: 24%;
+}
+
+.map-container {
+	width: 59.5%;
 }
 
 .section-header {
