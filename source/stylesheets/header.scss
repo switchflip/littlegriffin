@@ -1,3 +1,11 @@
+
+.header {
+	background-image: url(/images/background-blur.jpg); 
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+}
 .header-image {
 	width: 95%;
 }
@@ -11,6 +19,16 @@
 			padding: 10px 20px;
 			&:nth-child(3) {
 				margin-right: 100px;
+			}
+			&:nth-child(1) {
+				-webkit-border-radius: 5px 0 0 5px;
+				-moz-border-radius: 5px 0 0 5px;
+				border-radius: 5px 0 0 5px;
+			}
+			&:nth-child(6) {
+				-webkit-border-radius: 0 5px 5px 0;
+				-moz-border-radius: 0 5px 5px 0;
+				border-radius: 0 5px 5px 0;
 			}
 			a {
 				color: #fff;
