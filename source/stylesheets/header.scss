@@ -1,67 +1,66 @@
-
 #header {
-background-image: url(/images/background-blur.jpg); 
-background-size: 100%;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+	background-image: url(/images/background-blur.jpg); 
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 
-.header-image {
-width: 90%;
-padding-left: 3%;
-}
+	.header-image {
+	width: 90%;
+	padding: 0;
+	}
 
-.nav {
-	width: 75%;
-	margin: 0 auto;
-	padding-left: 4%;
-	padding-top: 4%;
-	ul {
-		padding: 10% 0 10% 17%;
-		padding-left: 8%;
-		li {
-			display: inline;
-			background-color: #e6663a;
-			padding: 1.5% 2%;
-			&:nth-child(1) {
-				-webkit-border-radius: 5px 0 0 5px;
-				-moz-border-radius: 5px 0 0 5px;
-				border-radius: 5px 0 0 5px;
+	.nav {
+		ul {
+			padding: 10% 0 10% 17%;
+			padding-left: 8%;
+			li {
+				display: inline;
+				background-color: #e6663a;
+				padding: 1.5% 2%;
+				&:nth-child(1) {
+					-webkit-border-radius: 5px 0 0 5px;
+					-moz-border-radius: 5px 0 0 5px;
+					border-radius: 5px 0 0 5px;
 				}
-			&:nth-child(3) {
-				margin-right: 20%;
+				&:nth-child(3) {
+					margin-right: 20%;
 				}
-			&:nth-child(6) {
-				-webkit-border-radius: 0 5px 5px 0;
-				-moz-border-radius: 0 5px 5px 0;
-				border-radius: 0 5px 5px 0;
+				&:nth-child(6) {
+					-webkit-border-radius: 0 5px 5px 0;
+					-moz-border-radius: 0 5px 5px 0;
+					border-radius: 0 5px 5px 0;
 				}
-			a {
-				color: #fff;
+				a {
+					color: #fff;
 				}
 			}
 		}
 	}
+	.blur-background {
+		background: url(/images/couch-couple.jpg);
+		height: 597px;
+		width: 75%;
+		margin: 0 auto;
+	}
 	.overlay {
-		background-color: black;
-		padding: 0 0 0 5%;
-		position: relative;
 		opacity: 0.6;
-		top: -121px;
-		left: -10px;
-		width: 92%;
+		width: 100%;
+		padding: 0;
+		background-color: black;
+		top: 459px;
+		left: -102px;
+		clear: both;
 		p {
 			float: left;
-			width: 44%;
-			padding: 1% 2% 0 2%;
-			color: white;
+			width: 30%;
+			padding: 0;
+			color: #fff;
 			font-family: 'helvetica-nue';
 			line-height: 20px;
 		}
 	}
 }
-
 
 
 
