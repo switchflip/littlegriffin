@@ -1,0 +1,55 @@
+label, input {
+	font-family: 'helvetica-nue';
+}
+
+label {
+	color: #fff;
+}
+
+.name {
+	width: 80%;
+	padding: 10px;
+}
+.label {
+	height: 65px;
+	border-bottom: 3px dotted #EFC26B;
+	width: 90%;
+}
+
+.choices {
+	background-color: #4D527A;
+	padding: 10px;
+	width: 83%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 14px;
+	input[type=radio] {
+		display: nomal;
+	}
+}
+
+.border-bottom {
+	border-bottom: 3px dotted #EFC26B;
+	width: 93%;
+	padding-bottom: 10px;
+}
+
+input[type=text] {
+	font-size: 14px;
+}
+
+input[type=submit] {
+font-size: 27px;
+background: #4D527A;
+border: none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border-radius: 5px;	
+margin: 0;
+padding: 9px 5px 0px 5px;
+width: 89%;
+color: #fff;
+}

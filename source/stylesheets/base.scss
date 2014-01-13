@@ -1,5 +1,5 @@
 body {
-	background-color: #e3e3e3;
+	background-image: url('/images/wood-background.png');
 }
 
 .container {
@@ -57,7 +57,39 @@ body {
 	padding: 75px 0 0 10%
 }
 
-img {
+.rsvp-icon, .accomodation-icon, .registry-icon, .contact-icon, .venue-icon {
+	background-repeat: no-repeat;
+	background-size: 55px;
+}
+
+.accomodation-icon {
+	background-image: url('/images/accomodation-icon.png');
+}
+
+.rsvp-icon {
+	background-image: url('/images/rsvp-icon.png');
+}
+
+.registry-icon {
+	background-image: url('/images/registry-icon.png');
+}
+
+.contact-icon {
+	background-image: url('/images/contact-icon.png');
+}
+
+.venue-icon {
+	background-image: url('/images/venue-icon.png');
+}
+
+span.rsvp-icon, span.accomodation-icon, span.registry-icon, span.contact-icon, span.venue-icon {
+		width: 55px;
+		height: 55px;
+		padding: 5px 2px 0 5px;
+		float: left;
+}
+
+.rounded {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;

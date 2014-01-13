@@ -1,5 +1,66 @@
 #rsvp
-	%div.section-header
-		%h2 RSVP
-	%form
-			
+  %div.section-header
+    %span.rsvp-icon
+    %h2.caps rsvp
+  %form#form4.wufoo.topLabel.page{"accept-charset" => "UTF-8", action: "https://switchflip.wufoo.com/forms/rpmrnrk0utomw7/#public", autocomplete: "off", enctype: "multipart/form-data", method: "post", name: "form4", novalidate: ""}
+    .row
+      %h5 Let us know if you're coming and where you'll be staying.
+      .third
+        %p.label
+          %label Are you attending? 
+          %input#radioDefault_1{name: "Field1", type: "hidden", value: ""}
+        .choices
+          %span
+            %label.choice{for: "Field1_0"} Yes
+            %input#Field1_0.field.radio{checked: "checked", name: "Field1", tabindex: "1", type: "radio", value: "Yes"}
+          %span
+            %label.choice{for: "Field1_1"} No
+            %input#Field1_1.field.radio{name: "Field1", tabindex: "2", type: "radio", value: "No"}
+      .third
+        %p.label
+          %label Do you intend to stay at the Ramada Plaza Niagara Falls or the Ramada Jordan/Beacon Harbourside Resort?
+          %input#radioDefault_2{name: "Field2", type: "hidden", value: ""}
+        .choices
+          %span
+            %label.choice{for: "Field2_0"} Niagara Falls
+            %input#Field2_0.field.radio{checked: "checked", name: "Field2", tabindex: "3", type: "radio", value: "Ramada Plaza Niagara Falls"}
+            %label.choice{for: "Field2_1"} Jordan/Beacon
+            %input#Field2_1.field.radio{name: "Field2", tabindex: "4", type: "radio", value: "Ramada Jordan/Beacon"}
+      .third
+        %p.label
+          %label Do you intend on making use of the shuttle bus?
+          %input#radioDefault_4{name: "Field4", type: "hidden", value: ""}
+        .choices
+          %span
+            %label.choice{for: "Field4_0"} Yes
+            %input#Field4_0.field.radio{checked: "checked", name: "Field4", tabindex: "5", type: "radio", value: "Yes"}
+          %span
+            %label.choice{for: "Field4_1"} No
+            %input#Field4_1.field.radio{name: "Field4", tabindex: "6", type: "radio", value: "No"}
+    .row
+      %h5.border-bottom Name(s)
+      .third  
+        %label#title5.desc{for: "Field5"}
+        %input.name#Field5.field.text.fn{name: "Field5", tabindex: "7", type: "text", value: "", :placeholder => 'First Guest'}/
+        %label{for: "Field5"}
+        %input.name#Field6.field.text.ln{name: "Field6", tabindex: "8", type: "text", value: "", :placeholder => 'First Guest'}/
+        %label{for: "Field6"}
+        %label#title7.desc{for: "Field7"}
+      .third
+        %input.name#Field7.field.text.fn{name: "Field7", tabindex: "9", type: "text", value: "", :placeholder => 'Second Guest'}/
+        %label{for: "Field7"}
+        %input.name#Field8.field.text.ln{name: "Field8", tabindex: "10", type: "text", value: "", :placeholder => 'Second Guest'}/
+        %label{for: "Field8"}
+      .third
+        %label#title9.desc{for: "Field9"}
+        %input.name#Field9.field.text.fn{name: "Field9", tabindex: "11", type: "text", value: "", :placeholder => 'Third Guest'}/
+        %label{for: "Field9"}
+        %input.name#Field10.field.text.ln{name: "Field10", tabindex: "12", type: "text", value: "", :placeholder => 'Third Guest'}/
+        %label{for: "Field10"}
+    .row
+      .third
+        %input#saveForm.btTxt.submit{name: "saveForm", type: "submit", value: "SUBMIT"}/
+      .hide
+        %label{for: "comment"} Do Not Fill This Out
+        %textarea#comment{cols: "1", name: "comment", rows: "1"}
+        %input#idstamp{name: "idstamp", type: "hidden", value: "9lw+mOF2/HdP8VLkiI4wcZmIX+4frdna2A5XHpXrxms="}/

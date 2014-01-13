@@ -1,13 +1,17 @@
 @media (max-width: 1000px) {
+	.label {
+		height: inherit;
+	}
+
 	.full, .two-thirds, .half, .third, .quarter, .map-container {
 		width: 90%;
 		padding-bottom: 1%;
 	}
 	h2 {
-		font-size: 90px;
+		font-size: 60px;
 	}
 	h3 {
-		font-size: 90px;
+		font-size: 60px;
 	}
 	#venue .two-thirds .google-maps {
 		margin: 5% 0;
@@ -16,6 +20,28 @@
 		.triangle-box {
 			width: 35%;
 		}
+	}
+	#rsvp {
+		min-height: 920px;
+		.choices {
+			width: 87%;
+		}
+		.name {
+			width: 86%;
+		}
+
+		p.label {
+			margin: 10px 0 20px 0;
+			padding-bottom: 10px;
+		}
+
+		input[type=submit] {
+			width: 90%;
+			margin: 0;
+		}
+	}
+	.border-bottom {
+		width: 81%;
 	}
 }
 
@@ -28,4 +54,9 @@
 			width: 55%;
 		}
 	}
-}
+	#rsvp {
+		input[type=submit] {
+			width: 93%;
+			}
+		}
+	}
