@@ -1,3 +1,73 @@
+@media (max-width: 1200px) {
+	#header {
+		.nav {
+			ul {
+				margin: 0 0 0 20%;
+			}
+			img.logo {
+				margin-left: 2%;
+			}
+		}
+	}
+}
+
+@media (max-width: 1150px) {
+	#header {
+		.nav {
+			ul {
+				margin: 0.2% 0 0 19%;
+			}
+			img.logo {
+				margin-left: 1%;
+			}
+		}
+	}
+}
+
+@media (max-width: 1100px) {
+	#header {
+		.nav {
+			ul {
+				margin: 0 0 0 18%;
+			}
+			img.logo {
+				margin-left: 0%;
+			}
+		}
+	}
+}
+
+@media (max-width: 1110px) {
+	#header {
+		.nav {
+			padding-left: 1%;
+			ul {
+				margin: 1% 0 0 20%;
+				li {
+					padding: 1.5% 3%;
+				}
+			}
+			img.logo {
+				margin-left: 2%;
+			}
+		}
+	}
+}
+
+@media (max-width: 1050px) {
+	#header {
+		.nav {
+			ul {
+				margin: 2% 0 0 16%;
+			}
+			img.logo {
+				margin-left: 0;
+				width: 18%;
+			}
+		}
+	}
+}
+
 @media (max-width: 1000px) {
 	.label {
 		height: inherit;
@@ -13,6 +83,18 @@
 	h3 {
 		font-size: 60px;
 	}
+	
+	#header {
+		.nav {
+			img.logo {
+				margin-left: 0%;
+			}
+			ul {
+				margin: 3% 0 0 16%;
+			}
+		}
+	}
+
 	#venue .two-thirds .google-maps {
 		margin: 5% 0;
 	}
@@ -45,6 +127,39 @@
 	}
 }
 
+@media (max-width: 960px) {
+	#header {
+		.nav {
+			img.logo {
+				width: 20%;
+				margin: 0 auto;
+				display: block;
+			}
+			ul {
+				margin: 18% 0 0 5%;
+				display: block;
+				li {
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 850px) {
+	#header {
+		.nav {
+			ul {
+				display: none;
+			}
+			img.logo {
+				top: 20px;
+				width: 40%;
+			}
+		}
+	}
+}
+
 @media (max-width: 680px) {
 	h2, h3 {
 		font-size: 60px;
@@ -57,6 +172,11 @@
 	#rsvp {
 		input[type=submit] {
 			width: 93%;
+			}
+		}
+		#header {
+			.marketing p {
+				font-size: 13px;
 			}
 		}
 	}

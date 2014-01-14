@@ -1,1 +1,2 @@
+//= jquery
 //= require_tree .

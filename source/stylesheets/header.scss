@@ -4,27 +4,37 @@
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-
-	.header-image {
-	width: 90%;
-	padding: 0;
-	}
-
+	
 	.nav {
+		margin: 0 auto;
+		width: 80%;
+		margin-bottom: 35px;
+		padding-left: 3%;
+
+		.logo {
+		width: 20%;
+		position: relative;
+		margin-left: 3%;
+		top: 90px;
+		}
+
+// Tried using image as an li and an img relatively positioned
 		ul {
-			padding: 10% 0 10% 17%;
-			padding-left: 8%;
+			padding: 0% 0 8% 0;
+			margin: -0.5% 0 0 21%;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
 			li {
 				display: inline;
 				background-color: #e6663a;
-				padding: 1.5% 2%;
+				padding: 1.5% 3.2%;
+				margin: 0;
+				border-left: 1px solid #EC8674;
 				&:nth-child(1) {
 					-webkit-border-radius: 5px 0 0 5px;
 					-moz-border-radius: 5px 0 0 5px;
 					border-radius: 5px 0 0 5px;
-				}
-				&:nth-child(3) {
-					margin-right: 20%;
 				}
 				&:nth-child(6) {
 					-webkit-border-radius: 0 5px 5px 0;
@@ -39,25 +49,44 @@
 	}
 	.blur-background {
 		background: url(/images/couch-couple.jpg);
-		height: 597px;
-		width: 75%;
+		background-size: 100%;
+		background: cover;
 		margin: 0 auto;
+		min-height: 550px;
+		width: 75%;
 	}
-	.overlay {
-		opacity: 0.6;
-		width: 100%;
-		padding: 0;
-		background-color: black;
-		top: 459px;
-		left: -102px;
-		clear: both;
+	
+	.marketing {
+		width: 80%;
+		margin: 0 auto;
+		position: relative;
+		img {
+			width: 100%;
+			-webkit-border-radius: 5px 5px 0 0;
+			-moz-border-radius: 5px 5px 0 0;
+			border-radius: 5px 5px 0 0;
+		}
 		p {
-			float: left;
-			width: 30%;
-			padding: 0;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			-moz-column-count: 2;
+	    -moz-column-gap: 1%;
+	    -webkit-column-count: 2;
+	    -webkit-column-gap: 1%;
+	    -webkit-border-radius: 5px 5px 0 0;
+	    -moz-border-radius: 5px 5px 0 0;
+	    border-radius: 5px 5px 0 0;
+			padding: 3% 2% 1.5% 2%;
+			margin: 0;
+			width: 100%;
 			color: #fff;
-			font-family: 'helvetica-nue';
-			line-height: 20px;
+			display: block;
+			opacity: 0.6;
+			background-color: #000;
+			position: absolute;
+			bottom: 0;
+			line-height: 18px;
 		}
 	}
 }
