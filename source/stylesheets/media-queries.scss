@@ -151,10 +151,13 @@
 		.nav {
 			ul {
 				display: none;
+				li {
+					padding: 1.5% 2%;
+				}
 			}
 			img.logo {
 				top: 20px;
-				width: 40%;
+				width: 30%;
 			}
 		}
 	}
